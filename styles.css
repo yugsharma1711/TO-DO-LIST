@@ -24,3 +24,11 @@
     background-color: saddlebrown;
     height: 100vh;
 }
+.create_new_task{
+    padding: 5px;
+    flex-direction: column;
+    display: none;
+}
+.create_new_task > *{
+    margin: 5px;
+}
