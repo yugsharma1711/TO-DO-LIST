@@ -14,7 +14,7 @@
 }
 .container_create_new_task{
     background-color: red;
-    opacity: 0.5;
+    opacity: 1;
     display: flex;
     align-items: center;
     /* padding: 25px;
