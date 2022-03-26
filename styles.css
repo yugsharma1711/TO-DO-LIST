@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+}
+.nav_bar{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 10px;
+}
+.container_create_new_task{
+    background-color: red;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    /* padding: 25px;
+    padding-right: 0; */
+}
+.container_tasks{
+    background-color: saddlebrown;
+    height: 100vh;
+}
