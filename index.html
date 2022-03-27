@@ -1,26 +1,33 @@
 <html>
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+       </style>
         <title>TO DO LIST</title>
         <link rel="stylesheet" href="./styles.css">
+        <script src="https://kit.fontawesome.com/a50b36bb17.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class = "nav_bar">
             <h1 class = "main_heading">
                 TODAY
             </h1>
-            <button class = "create_new_btn" id = "create_new_btn">PLUS</button>
+            <span id = "create_new_btn"><i class="fa-solid fa-circle-plus"></i></span>
+            
         </div>
         <div class = "container_create_new_task" id = "container_create_new_task">
             <div class = "create_new_task" id = "create_new_task" >
                 Enter the text to be saved<input type="text" id = 'task_entered'>
                 Enter the time <input type="text" name="" id="time_entered">
-                <button id = "save_task">SAVE</button>
-                <button  id = 'close_btn'>CLOSE</button>
+                <div class="container_btns">
+                    <span id = "save_task"><i class="fa-solid fa-floppy-disk"></i></span>
+                    <span  id = 'close_btn'><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                
             </div>
         </div>
         <div class="container_tasks">
             <ul id = "task_list">
-                <li>ge</li>
                 <!-- TO be added with the help of JS -->
             </ul>
         </div>
